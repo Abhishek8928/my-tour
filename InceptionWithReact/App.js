@@ -23,10 +23,11 @@
 let h1Tag = React.createElement("h1", {}, "Namaste Javascript");
 
 let button = React.createElement("button", {
-    class:"btn-know"
+    class: "btn-know",
 }, "Know More");
 
 let h2Tag = React.createElement("h2", {
+    // style:"color:red",
     class:"title"
 }, "Namaste Javascript");
 let pTag = React.createElement("p", {
